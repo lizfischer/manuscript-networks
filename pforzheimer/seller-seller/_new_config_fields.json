@@ -1,0 +1,17 @@
+{
+	"legend": {
+		"colorKey": {
+		  "#458346": "green"
+		},
+		"nodeSize": "Degree"  
+	},  
+	"informationPanel": {
+		"nodeAttributes": [],
+		"edgeAttributes": ["Edge Weight"]
+	},
+	"sigma": {
+		"drawingProperties": {
+		  "defaultMode": "dark"
+		}
+	}
+}

@@ -1,0 +1,63 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Liz Fischer"
+  },
+  "text": {
+    "more": "",
+    "intro": "This visualization is a subset of the full DIMEV network, showing Harley 2253's ego network at distance 3. This network includes Harley 2253, all the DIMEV texts it contains, all the other manuscripts that contain those texts, and the other texts contained by these 'cousin' manuscripts.",
+    "title": "Harley 2253 Ego Network",
+	"citation": ""
+
+  },
+  "legend": {
+    "edgeLabel": "Text in MS",
+    "colorLabel": "",
+    "nodeLabel": "Texts \u0026 MSS",
+	"colorKey": {
+	  "#aaaa00": "Manuscript",
+	  "#ffaabb": "Text in Harley 2253",
+	  "#dddddd": "Text not in Harley 2253",
+	  "#77aadd": "Text shared by multiple manuscripts in this network, but *not* in Harley 2253"
+
+	},
+	"nodeSize": ""  
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 7,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

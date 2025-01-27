@@ -1,0 +1,57 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Liz Fischer"
+  },
+  "text": {
+    "more": "",
+    "intro": "This visualization of the early lending of the Cotton library shows book which were borrow by the same person within 1 year of each other.",
+    "title": "Cotton manuscripts borrowed together"
+  },
+  "legend": {
+    "edgeLabel": "Borrowed within 1 year of each other",
+    "colorLabel": "Shelfmark Emperor",
+    "nodeLabel": "Book",
+	"nodeSize": "Degree"  
+
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false,
+	"edgeAttributes": ["Edge Weight"]
+
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

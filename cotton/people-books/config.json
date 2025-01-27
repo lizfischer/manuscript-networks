@@ -1,0 +1,60 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Liz Fischer"
+  },
+  "text": {
+    "more": "",
+    "intro": "",
+    "title": "Early Lending of the Cotton Manuscripts"
+  },
+  "legend": {
+    "edgeLabel": "Books",
+    "colorLabel": "",
+    "nodeLabel": "Books & People",
+	"colorKey": {
+	  "#aa3377": "Book",
+	  "#66ccee": "Person"
+	}
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": false,
+	"nodeAttributes": ["type", "Degree", "Betweenness Centrality", "title", "findingaid"],
+	"edgeAttributes": ["Edge Weight"]
+
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 2,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}

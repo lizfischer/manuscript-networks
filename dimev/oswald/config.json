@@ -1,0 +1,60 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Liz Fischer"
+  },
+  "text": {
+    "more": "",
+    "intro": "This visualization shows the ego network of DIMEV 4741-- the texts it is directly connected to, and those one further step removed (metaphorically, the text’s friends and friends-of-friends).",
+    "title": "DIMEV 4741: \"Life of St. Oswald\" Ego Network"
+  },
+  "legend": {
+    "edgeLabel": "Share manuscript(s)",
+    "colorLabel": "",
+	"nodeSize": "Degree in full DIMEV network",
+    "nodeLabel": "Text",
+	"colorKey": {
+	  "#66ccee": "DIMEV 4741: 'Life of St. Oswald'",
+	  "#ee6677": "Texts in MSS with DIMEV 4741",
+	  "#ccbb44": "Texts one MS removed from DIMEV 4741"
+	}
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": ""
+  },
+  "informationPanel": {
+	"nodeAttributes": ["type", "Degree", "Betweenness Centrality", "title","url"],
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "straight",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 2,
+      "maxNodeSize": 10
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
