@@ -1,1 +1,1 @@
-# Network Analysis for Book Historians: Supplemental files
+# _Network Analysis for Book Historians_: Supplemental files
