@@ -1,4 +1,4 @@
-Template provided by InteractiveVis project
+Template modified from InteractiveVis project
 http://blogs.oii.ox.ac.uk/vis/
 https://github.com/oxfordinternetinstitute/InteractiveVis/
 
