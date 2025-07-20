@@ -24,16 +24,16 @@ For the time being, the interactive versions are also hosted online at https://m
 
 ### Early Borrowers of the Cotton Manuscripts
 - **_data** - CSVs used to load Gephi. See DIMEV README for explanation of each file.
-- **people-books** [[hosted](https://manuscriptnetworks.online/interactive/cotton/people-books/)] -  Network of People and Manuscripts in the Cotton loan records. (Figure 38)
-- **book-book-emperor** [[hosted](https://manuscriptnetworks.online/interactive/cotton/book-book-emperor/)] - Network of books in the Cotton loan records, which are connected if they were borrowed by the same person within one year of each other. Colour indicates the emperor’s name used in the manuscript’sshelfmark, which serves as a rough approximation of content similarity. (Figure 39)
-- **book-book-btwn** [[hosted](https://manuscriptnetworks.online/interactive/cotton/book-book-btwn/)] - Network of books in the Cotton loan records, which are connected if they were borrowed by the same person within one year of each other, sized by betweenness (Figure 40)
-- **person-person** [[hosted](https://manuscriptnetworks.online/interactive/cotton/person-person/)] - Network of people who borrowed the same books from Cotton’s library. (Figure 41)
+- **[people-books](https://github.com/lizfischer/manuscript-networks/tree/main/cotton/people-books)** [[hosted](https://manuscriptnetworks.online/interactive/cotton/people-books/)] -  Network of People and Manuscripts in the Cotton loan records. (Figure 38)
+- **[book-book-emperor](https://github.com/lizfischer/manuscript-networks/tree/main/cotton/book-book-emperor)** [[hosted](https://manuscriptnetworks.online/interactive/cotton/book-book-emperor/)] - Network of books in the Cotton loan records, which are connected if they were borrowed by the same person within one year of each other. Colour indicates the emperor’s name used in the manuscript’sshelfmark, which serves as a rough approximation of content similarity. (Figure 39)
+- **[book-book-btwn](https://github.com/lizfischer/manuscript-networks/tree/main/cotton/book-book-btwn)** [[hosted](https://manuscriptnetworks.online/interactive/cotton/book-book-btwn/)] - Network of books in the Cotton loan records, which are connected if they were borrowed by the same person within one year of each other, sized by betweenness (Figure 40)
+- **[person-person](https://github.com/lizfischer/manuscript-networks/tree/main/cotton/person-person)** [[hosted](https://manuscriptnetworks.online/interactive/cotton/person-person/)] - Network of people who borrowed the same books from Cotton’s library. (Figure 41)
 
 
 ### Provenance of the Pforzheimer Collection
 - **_data** - CSVs used to load Gephi. See DIMEV README for explanation of each file.
-- **seller-seller** [[hosted](https://manuscriptnetworks.online/interactive/pforz/seller-seller/)] - Network of provenance in the Pforzheimer collection by seller. (Figure 46)
-- **sale-sale** [[hosted](https://manuscriptnetworks.online/interactive/pforz/sale-sale/)] -  Network of provenance in the Pforzheimer collection by sale rather than seller. (Figure 47)
+- **[seller-seller](https://github.com/lizfischer/manuscript-networks/tree/main/pforzheimer/seller-seller)** [[hosted](https://manuscriptnetworks.online/interactive/pforz/seller-seller/)] - Network of provenance in the Pforzheimer collection by seller. (Figure 46)
+- **[sale-sale](https://github.com/lizfischer/manuscript-networks/tree/main/pforzheimer/sale-sale)** [[hosted](https://manuscriptnetworks.online/interactive/pforz/sale-sale/)] -  Network of provenance in the Pforzheimer collection by sale rather than seller. (Figure 47)
 
 ## Using interactive visualizations
 Clone this repository or download as a .zip. Open `index.html` for the visualization you wish to view.
