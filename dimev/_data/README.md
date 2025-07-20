@@ -1,0 +1,12 @@
+# DIMEV data files
+- [nodes_authors.csv](nodes_authors.csv) - Author nodes
+- [nodes_subjects.csv](nodes_subjects.csv) - Subject nodes
+- [nodes_texts.csv](nodes_texts.csv) - Text nodes
+- [rel_author-author_ms.csv](rel_author-author_ms.csv) - Relationships between author nodes, based on appearing in the same MS 
+- [rel_ms-ms.csv](rel_ms-ms.csv) - Relationships between manuscripts, based on sharing the same texts 
+- [rel_subject-author.csv](rel_subject-author.csv) - Relationships between subjects and authors, based on shared texts 
+- [rel_subject-ms.csv](rel_subject-ms.csv) - Relationships between subjects and manuscripts, based on sharing texts  
+- [rel_subject-subject_author.csv](rel_subject-subject_author.csv) - Relationships between subjects, based on whether the same author wrote on both. 
+- [rel_subject-subject_ms.csv](rel_subject-subject_ms.csv) - Relationships between subjects, based on appearing in the same MS. 
+- [rel_subject-subject_text.csv](rel_subject-subject_text.csv) - Relationships between subjects, based on both being used to describe the same text. 
+- [rel_text-text.csv](rel_text-text.csv) - Relationships between texts, based on appear in the same MSS. 
